@@ -1,0 +1,38 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color:cadetblue;
+    text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.nav-item{
+    list-style-type: none;
+}
+
+.nav-item > a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+.nav-item > a:hover{
+    background-color: rgb(75, 185, 189);
+}
+
+.nav-brand {
+    margin-right: auto;
+}
+
